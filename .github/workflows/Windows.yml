@@ -1,0 +1,20 @@
+]1 Connected to Host: CONNECT www.yahoo.com:443 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: www.yahoo.com:443
+
+
+] modifying :1 CONNECT www.yahoo.com:443 HTTP/1.1 -> to :CONNECT www.yahoo.com:443 HTTP/1.1
+] modifying :2 User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0 -> to :User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0
+] modifying :3 Proxy-Connection: keep-alive -> to :Proxy-Connection: keep-alive
+] modifying :4 Connection: keep-alive -> to :Connection: keep-alive
+] modifying :5 Host: www.yahoo.com:443 -> to :Host: www.yahoo.com:443
+] modifying :6  -> to :
+] Request modified to:
+CONNECT www.yahoo.com:443 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: www.yahoo.com:443
+Proxy-Authorization: Basic ZmFsXHRyYW5sOiFwaXNzb2ZmOTkh
